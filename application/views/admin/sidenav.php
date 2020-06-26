@@ -33,10 +33,18 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?= base_url("Tagihan/"); ?>" class="nav-link">
+            <a href="<?= base_url("Admin/profilKepala"); ?>" class="nav-link">
               <i class="nav-icon fa fa-database"></i>
               <p>
-                Profil KUA
+                Profil Kepala KUA
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="<?= base_url("Admin/periodesasi"); ?>" class="nav-link">
+              <i class="nav-icon fa fa-database"></i>
+              <p>
+                Periodesasi
               </p>
             </a>
           </li>
