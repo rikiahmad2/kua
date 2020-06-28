@@ -63,9 +63,5 @@
   </div>
 </section>
 
-
-<div class="button">
-  <button type="button" onclick="javascript:history.back()"><span ></span>Kembali</button>
-</div>
 </body>   
 </html>

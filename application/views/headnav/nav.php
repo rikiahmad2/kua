@@ -34,71 +34,33 @@
 
           <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="<?= base_url("Home/"); ?>">Home</a></li>
           <li class="menu-has-children"><a href="#">Profil</a>
             <ul>
-              <li><a href="KepalaKUA.html">Profil Kepala KUA</a></li>
-              <li><a href="Geografis.html">Letak Geografis</a></li>
-              <li><a href="visimisi.html">Visi & Misi </a></li>
-              <li><a href="TugasKUA.html">Tugas dan Fungsi KUA </a></li>
-              <li><a href="struktur_organisasi.html">Struktur Organisasi</a></li>
+              <li><a href="<?= base_url("Profil/kepalaKUA"); ?>">Profil Kepala KUA</a></li>
+              <li><a href="<?= base_url("Profil/letakgeo"); ?>">Letak Geografis</a></li>
+              <li><a href="<?= base_url("Profil/visimisi"); ?>">Visi & Misi </a></li>
+              <li><a href="<?= base_url("Profil/struktur"); ?>">Struktur Organisasi</a></li>
             </ul>
           </li>
           <li class="menu-has-children"><a href="#">Data</a>
             <ul>
-              <li><a href="penyuluhagama.html">Data Penyuluh Agama</a></li>
-              <li><a href="masjid.html">Data Masjid</a></li>
-              <li><a href="penduduk.html">Data Penduduk Beragama</a></li>
-             <li><a href="">Data Tanah Wakaf </a>
-                <ul>
-                 <li><a href="pelayananwakaf.html">Pelayanan Wakaf</a></li>
-                 <li><a href="jumlahwakaf.html">Jumlah Tanah Wakaf</a></li>
-                </ul>
-             </li>
-             <li><a href="">Data Pernikahan</a>
-               <ul>
-                 <li><a href="jadwalnikah.html">Jadwal Pernikahan</a></li>
-                 <li><a href="datanikah.html">Data Pernikahan</a></li>
-              </ul>
-             </li>
-             <li ><a href="">Sidang Peradilan Agama</a>
-                <ul>
-                  <li><a href="jadwalsidang.html">Jadwal Sidang Peradilan Agama</a></li>
-                  <li><a href="#">Formulir Permintaan Akta Cerai</a></li>
-                  <li><a href="#">Cek Info Perkara</a></li>
-                 </ul>
-             </li>
+              <li><a href="<?= base_url("Data/penyuluh"); ?>">Data Penyuluh Agama</a></li>
+              <li><a href="<?= base_url("Data/masjid"); ?>">Data Tempat Ibadah</a></li>
             </ul> 
           </li>
 
           <li class="menu-has-children"><a href="#">Program Kerja</a>
             <ul>
-                <li><a href="nikah.html">Pelayanan Nikah</a></li>
-                <li><a href="pelayananwakaf.html">Pelayanan Wakaf</a></li>
-                <li><a href="bimbinganmasjid.html">Bimbingan Kemasjidan</a></li>
-                   <ul>
-                      <li><a href="#">Pengukuran Arah Kiblat</a></li>
-                      <li><a href="#">Persyaratan pembangunan masjid</a></li>
-                  </ul>
-                <li><a href="haji.html">Pelayanan Ibadah Haji</a></li>
-                <li><a href="#">Keluarga Sakinah</a>
-                  <ul>
-                      <li><a href="keluarga.html">Bimbingan Calon Pengantin</a></li>
-                      <li><a href="keluarga.html">Pelayanan Bimbingan Keluarga Sakinah</a></li>
-                  </ul>
-                </li>
-                </li>
-                <li><a href="#">Galery Kegiatan</a>
-                  <ul>
-                      <li><a href="publikasi.html">Kegiatan 1</a></li>
-                      <li><a href="publikasi.html">Kegiatan 2</a></li>
-                  </ul>
+                <li><a href="<?= base_url("Program_kerja/hisab_ruyah");?>">Kemasjidan Dan Hisab Ru'yah</a></li>
+                <li><a href="<?= base_url("Program_kerja/keluarga_sakinah");?>">Keluarga Sakinah</a>
+                <li><a href="<?= base_url("Program_kerja/ibadah_haji"); ?>">Ibadah Haji</a></li>
                 </li>
             </ul>
           </li>
-          <li><a href="index.html#skills">Statistik</a></li>
-          <li><a href="index.html#portfolio">Berita</a><li>
-          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="<?= base_url("Home/#skills"); ?>">Statistik</a></li>
+          <li><a href="<?= base_url("Home/#portfolio"); ?>">Berita</a><li>
+          <li><a href="<?= base_url("Home/#contact"); ?>">Contact</a></li>
 
         </ul>
       </nav><!-- #nav-menu-container -->

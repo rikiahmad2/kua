@@ -58,14 +58,14 @@
             <!-- small box -->
             <div class="small-box bg-info">
               <div class="inner">
-                <h3>10  </h3>
+                <h3>1  </h3>
 
-                <p>List Tagihan</p>
+                <p>Berita</p>
               </div>
               <div class="icon">
                 <i class="ion-social-bitcoin-outline"></i>
               </div>
-              <a href="<?= base_url("Tagihan/"); ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i>
+              <a href="<?= base_url("Berita/"); ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i>
               </a>
             </div>
           </div>
@@ -74,14 +74,14 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>123<sup style="font-size: 20px"></sup></h3>
+                <h3>2<sup style="font-size: 20px"></sup></h3>
 
-                <p>Project ( On Going ) </p>
+                <p>Profil Kepala KUA</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
               </div>
-              <a href="<?= base_url("Project/"); ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="<?= base_url("Admin/profilKepala"); ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -89,14 +89,14 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3>History</h3>
+                <h3>3</h3>
 
-                <p>History</p>
+                <p>Periodesasi</p>
               </div>
               <div class="icon">
                 <i class="ion-android-phone-portrait"></i>
               </div>
-              <a href="<?= base_url("History/"); ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="<?= base_url("Admin/periodesasi"); ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -104,14 +104,74 @@
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3>""</h3>
+                <h3>4</h3>
 
-                <p>Notification</p>
+                <p>Data Masjid</p>
               </div>
               <div class="icon">
                 <i class="ion-ios-bell"></i>
               </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="<?= base_url("Tmpt_ibadah/tempatIbadah"); ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h3>5<sup style="font-size: 20px"></sup></h3>
+
+                <p>Data Penyuluh Agama </p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="<?= base_url("Penyuluh/dataPenyuluh/"); ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-warning">
+              <div class="inner">
+                <h3>6<sup style="font-size: 20px"></sup></h3>
+
+                <p>Struktur Organisasi</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="<?= base_url("Struktur_organisasi/"); ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-danger ">
+              <div class="inner">
+                <h3>7<sup style="font-size: 20px"></sup></h3>
+
+                <p>Statistik </p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="<?= base_url("Statistik/dataStatistik/"); ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-success">
+              <div class="inner">
+                <h3>8<sup style="font-size: 20px"></sup></h3>
+
+                <p>Karyawan</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="<?= base_url("Karyawan/"); ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->

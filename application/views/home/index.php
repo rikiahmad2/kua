@@ -58,7 +58,7 @@
 <body>
 
   <!-- Banner -->
-  <img src="<?= base_url("assets/"); ?>pic/kepala.jpg" style="width:2000px;height:400px;" class="img-fluid">
+  <img src="<?= base_url("assets/"); ?>pic/KUA.png" style="width:1800px;height:170px;" class="img-fluid">
 
   <header id="header">
 
@@ -75,63 +75,25 @@
           <li><a href="index.html">Home</a></li>
           <li class="menu-has-children"><a href="#">Profil</a>
             <ul>
+              <li><a href="<?= base_url("Profil/sejarah/"); ?>">Sejarah</a></li>
               <li><a href="<?= base_url("Profil/kepalaKUA/"); ?>">Profil Kepala KUA</a></li>
               <li><a href="<?= base_url("Profil/letakgeo/"); ?>">Letak Geografis</a></li>
               <li><a href="<?= base_url("Profil/visimisi/"); ?>">Visi & Misi </a></li>
-              <li><a href="TugasKUA.html">Tugas dan Fungsi KUA </a></li>
-              <li><a href="struktur_organisasi.html">Struktur Organisasi</a></li>
-              <li><a href="<?= base_url("Profil/sejarah/"); ?>">Sejarah</a></li>
+              <li><a href="<?= base_url("Profil/struktur/"); ?>">Struktur Organisasi</a></li>
             </ul>
           </li>
           <li class="menu-has-children"><a href="#">Data</a>
             <ul>
-              <li><a href="penyuluhagama.html">Data Penyuluh Agama</a></li>
-              <li><a href="masjid.html">Data Masjid</a></li>
-             <li><a href="">Data Tanah Wakaf </a>
-                <ul>
-                 <li><a href="pelayananwakaf.html">Pelayanan Wakaf</a></li>
-                 <li><a href="jumlahwakaf.html">Jumlah Tanah Wakaf</a></li>
-                </ul>
-             </li>
-             <li><a href="#">Data Pernikahan</a>
-               <ul>
-                 <li><a href="jadwalnikah.html">Jadwal Pernikahan</a></li>
-                 <li><a href="datanikah.html">Data Pernikahan</a></li>
-              </ul>
-             </li>
-             <li ><a href="">Sidang Peradilan Agama</a>
-                <ul>
-                  <li><a href="jadwalsidang.html">Jadwal Sidang Peradilan Agama</a></li>
-                  <li><a href="#">Formulir Permintaan Akta Cerai</a></li>
-                  <li><a href="#">Cek Info Perkara</a></li>
-                 </ul>
-             </li>
+              <li><a href="<?= base_url("Data/penyuluh"); ?>">Data Penyuluh Agama</a></li>
+              <li><a href="<?= base_url("Data/masjid"); ?>">Data Tempat Ibadah</a></li>
             </ul> 
           </li>
 
-          <li class="menu-has-children"><a href="#">Program Kerja</a>
+          <li class="menu-has-children"><a href="#" id="#programkerja">Program Kerja</a>
             <ul>
-                <li><a href="nikah.html">Pelayanan Nikah</a></li>
-                <li><a href="pelayananwakaf.html">Pelayanan Wakaf</a></li>
-                <li><a href="bimbinganmasjid.html">Bimbingan Kemasjidan</a></li>
-                   <ul>
-                      <li><a href="#">Pengukuran Arah Kiblat</a></li>
-                      <li><a href="#">Persyaratan pembangunan masjid</a></li>
-                  </ul>
-                <li><a href="haji.html">Pelayanan Ibadah Haji</a></li>
-                <li><a href="#">Keluarga Sakinah</a>
-                  <ul>
-                      <li><a href="keluarga.html">Bimbingan Calon Pengantin</a></li>
-                      <li><a href="keluarga.html">Pelayanan Bimbingan Keluarga Sakinah</a></li>
-                  </ul>
-                </li>
-                </li>
-                <li><a href="#">Galery Kegiatan</a>
-                  <ul>
-                      <li><a href="publikasi.html">Kegiatan 1</a></li>
-                      <li><a href="publikasi.html">Kegiatan 2</a></li>
-                  </ul>
-                </li>
+                <li><a href="<?= base_url("Program_kerja/hisab_ruyah");?>">Kemasjidan Dan Hisab Ru'yah</a></li>
+                <li><a href="<?= base_url("Program_kerja/keluarga_sakinah");?>">Keluarga Sakinah</a>
+                <li><a href="<?= base_url("Program_kerja/ibadah_haji"); ?>">Ibadah Haji</a></li>
             </ul>
           </li>
           <li><a href="#skills">Statistik</a></li>
@@ -152,39 +114,40 @@
     <div class="intro-container">
       <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
-        <ol class="carousel-indicators"></ol>
+        <ol class="carousel-indicators">
+        </ol>
 
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="<?= base_url("assets/"); ?>img/intro-carousel/1.jpg" alt=""></div>
+            <div class="carousel-background"><img src="<?= base_url("assets/"); ?>img/intro-carousel/kantor.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h3>Profil KUA Kecamatan Sukakarya</h3>
+                <h2 class="text-light">Profil KUA Kecamatan Sukakarya</h2>
                 <p>Kantor Urusan Agama yang kewenangannya membantu pemerintahan khususnya dibidang keagamaan, dan salah satu unit kerja departemen Agama terdepan serta menjadi ujung tombak pelaksanaan tugas pelayanan masyarakat</p>
-                <a href="visimisi.html" class="btn-get-started scrollto">Lihat</a>
+                <a href="<?= base_url("Profil/sejarah/"); ?>" class="btn-get-started scrollto">Lihat</a>
               </div>
             </div>
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="<?= base_url("assets/"); ?>img/intro-carousel/2.jpg" alt=""></div>
+            <div class="carousel-background"><img src="<?= base_url("assets/"); ?>img/intro-carousel/nikah.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>Hayuk Nikah</h2>
                 <p>Pernikahan adalah upacara pengikatan janji nikah yang dirayakan atau dilaksanakan oleh dua orang dengan maksud meresmikan ikatan perkawinan secara norma agama, norma hukum, dan norma sosial</p>
-                <a href="datanikah.html" class="btn-get-started scrollto">Lihat</a>
+                <a href="#" class="btn-get-started scrollto">Lihat</a>
               </div>
             </div>
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="<?= base_url("assets/"); ?>img/intro-carousel/3.jpg" alt=""></div>
+            <div class="carousel-background"><img src="<?= base_url("assets/"); ?>img/intro-carousel/penyuluh.jpg" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>Pengukuhan Penyuluh Agama</h2>
                 <p>Pada Hari - Tanggal - Bulan - Tahun telah dilaksanakan pengukuhan penyulh agama sebagai salah satu rangkaian agenda kegiatan tahunan di KUA Kecamatan Sukakarya </p>
-                <a href="Publikasi.html" class="btn-get-started scrollto">Lihat</a>
+                <a href="#" class="btn-get-started scrollto">Lihat</a>
               </div>
             </div>
           </div>
@@ -201,24 +164,20 @@
     <section id="featured-services">
       <div class="container">
         <div class="row">
+          <?php
+          $i=1;
+          foreach($data as $row)
+          {
 
-          <div class="col-lg-4 box">
+           echo'<div class="col-lg-4 box">
             <i class="ion-ios-bookmarks-outline"></i>
-            <h4 class="title"><a href="publikasi.html">Kegiatan 1</a></h4>
-            <p class="description">Pada hari - tanggal - bulan - tahun telah dilaksanakan kegiatan - sebagai salah satu rangkaian agenda kegiatan di KUA Kecamatan Sukakarya</p>
-          </div>
+            <h4 class="title"><a href="'.base_url("Home/berita/").''.$row->kode_berita.'"">'.$row->nomor.'</a></h4>
+            <p class="description">'.$row->title.'</p>
+          </div>';
 
-          <div class="col-lg-4 box box-bg">
-            <i class="ion-ios-stopwatch-outline"></i>
-            <h4 class="title"><a href="publikasi.html">Kegiatan 2</a></h4>
-            <p class="description">Pada hari - tanggal - bulan - tahun telah dilaksanakan kegiatan - sebagai salah satu rangkaian agenda kegiatan di KUA Kecamatan Sukakarya</p>
-          </div>
-
-          <div class="col-lg-4 box">
-            <i class="ion-ios-heart-outline"></i>
-            <h4 class="title"><a href="">Kegiatan 3</a></h4>
-            <p class="description">Pada hari - tanggal - bulan - tahun telah dilaksanakan kegiatan - sebagai salah satu rangkaian agenda kegiatan di KUA Kecamatan Sukakarya</p>
-          </div>
+            $i++;
+          }
+          ?>
 
         </div>
       </div>
@@ -232,7 +191,9 @@
 
         <header class="section-header">
           <h3>Tentang Kami</h3>
-          <p>Kecamatan Sukakarya merupakan salah satu kecamatan yang berada di wilayah Pemerintahan Daerah Kabupaten Bekasi, di dalamnya terdapat Kantor Urusan Agama (KUA) yang kewenangannya membantu tugas pemerintahan khususnya di bidang keagamaan, dan salah satu unit kerja Departemen Agama yang berada paling depan serta menjadi ujung tombak dalam pelaksanaan tugas-tugas pelayanan kepada masyarakat dalam membangun di bidang keagamaan</p>
+          <p>Kecamatan Sukakarya merupakan salah satu kecamatan yang berada di wilayah Pemerintahan Daerah Kabupaten Bekasi, di dalamnya terdapat Kantor Urusan Agama (KUA) yang kewenangannya membantu tugas pemerintahan khususnya di bidang keagamaan, dan salah satu unit kerja Departemen Agama yang berada paling depan serta menjadi ujung tombak dalam pelaksanaan tugas-tugas pelayanan kepada masyarakat dalam membangun di bidang keagamaan
+          <br><br>
+          KUA Kecamatan Sukakarya KUA kec Sukakarya merupakan salah satu dan 23 KUA Kecamatan di lingkungan Kantor Kementerian Agama Kabupaten Bekasi KUA Sukakarya berdiri berdasarkan buku register pencatatan peda tahun 2004 dipimpin oleh kepala KUA pertama bernama Drs. H. Bunyamin. KUA Kecamatan Sukakarya dibengun di atas tanah kecamatan yang luasnyn 300 M2 dari uas keseluruhan 1.750 M2. yang diperuntukkan untuk komplek perkantoran kecamatan Sukakarya Kabupaten Bekasi</p>
         </header>
 
         <div class="row about-cols">
@@ -241,9 +202,9 @@
             <div class="about-col">
               <div class="img">
                 <img src="img/about-mission.jpg" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+                <div class="icon"><i class="ion-clipboard"></i></div>
               </div>
-              <h2 class="title"><a href="struktur_organisasi.html">Struktur Ogranisasi</a></h2>
+              <h2 class="title"><a href="<?= base_url("Profil/struktur/");?>">Struktur Ogranisasi</a></h2>
               <p>
                 Berikut susunan struktur Organisasi di dalam KUA Kecamatan Sukakarya
               </p>
@@ -256,7 +217,7 @@
                 <img src="img/about-plan.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
               </div>
-              <h2 class="title"><a href="nikah.html">Program Kerja</a></h2>
+              <h2 class="title"><a href="<?= base_url("Program_kerja/hisab_ruyah");?>">Program Kerja</a></h2>
               <p>
                 KUA Sukakarya Kabupaten Bekasi tidak hanya sekedar menindaklanjuti program pemerintah, kami juga melayani....
               </p>
@@ -269,7 +230,7 @@
                 <img src="img/about-vision.jpg" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
               </div>
-              <h2 class="title"><a href="visimisi.html">Visi dan Misi</a></h2>
+              <h2 class="title"><a href="<?= base_url("Profil/visimisi/"); ?>">Visi dan Misi</a></h2>
               <p>
                 Visi KUA Sukakarya mengikuti Visi dari Kementerian Agama Republik Indonesia untuk menyelaraskan pikiran, yaitu Terwujudnya....
               </p>
@@ -298,7 +259,7 @@
             <p class="description">Penyuluh Agama adalah seorang yang diberi tugas, tanggungjawab dan wewenang oleh Pemerintah untuk melaksanakan bimbingan keagamaan, penyuluhan pembangunan melalui bahasa agama kepada kelompok sasaran</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+            <div class="icon"><i class="ion-ios-moon-outline"></i></div>
             <h4 class="title"><a href="masjid.html">Data Masjid</a></h4>
             <p class="description">dalah rumah tempat ibadah umat Islam atau Muslim. Data ini berguna untuk mengetahui lokasi dan identitas Masjid yang dibangun</p>
           </div>
@@ -308,7 +269,7 @@
             <p class="description">Data kependudukan beragama dapat dilihat dalam menu ini berdasarkan kategori pengelompokan agama</p>
           </div>
           <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
-            <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+            <div class="icon"><i class="ion-ios-lightbulb-outline"></i></div>
             <h4 class="title"><a href="jumlahwakaf.html">Data Tanah Wakaf</a></h4>
             <p class="description">Untuk mengetahui Jumlah tanah wakaf bersetifikat silahkan klik bagian ini</p>
           </div>
@@ -347,36 +308,44 @@
 
         <header class="section-header">
           <h3>Data Statistik</h3>
-          <p>Data yang tercantum merupakan pengumpulan data berdasarkan kategori islami</p>
+          <p>Data yang tercantum merupakan pengumpulan data berdasarkan data tahunan</p>
         </header>
 
         <div class="skills-content">
+          <?php
+          $i=1;
+          foreach($data2 as $row)
+          {
 
-          <div class="progress">
+           echo '<div class="progress">
             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">Penduduk yang beragama islam<i class="val">53.257 Jiwa</i></span>
+              <span class="skill">Total RT<i class="val">'.$row->total_rt.'</i></span>
             </div>
-          </div>
-
-          <div class="progress">
-            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">Sekolah Dasar berbasis islam<i class="val">20 Bangunan</i></span>
+          </div>';
+          echo '<div class="progress">
+            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Total RW<i class="val">'.$row->total_rw.'</i></span>
             </div>
-          </div>
-
-          <div class="progress">
-            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">Pesantren / SMP & SMA berbasis Islam <i class="val">20 Bangunan</i></span>
+          </div>';
+          echo '<div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Total Penduduk<i class="val">'.$row->total_penduduk.'</i></span>
             </div>
-          </div>
-
-          <div class="progress">
-            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
-              <span class="skill">Masjid <i class="val">14 Bangunan</i></span>
+          </div>';
+          echo '<div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Total Tempat Ibadah<i class="val">'.$row->total_tmptibadah.'</i></span>
             </div>
-          </div>
+          </div>';
+          echo '<div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Total Sarana Pendidikan<i class="val">'.$row->total_pendidikan.'</i></span>
+            </div>
+          </div>';
 
-        </div>
+            $i++;
+          }
+          ?>
 
       </div>
     </section>
@@ -395,8 +364,6 @@
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">Semua</li>
-              <li data-filter=".filter-app">2018</li>
-              <li data-filter=".filter-card">2019</li>
               <li data-filter=".filter-web">2020</li>
             </ul>
           </div>
@@ -404,140 +371,31 @@
 
         <div class="row portfolio-container">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
-            <div class="portfolio-wrap">
+          <?php
+          $i=1;
+          foreach($data as $row)
+          {
+
+           echo '<div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">';
+           echo'
               <figure>
-                <img src="<?= base_url("assets/"); ?>img/portfolio/app1.jpg" class="img-fluid" alt="">
-                <a href="<?= base_url("assets/"); ?>img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <img src="'.base_url("foto/").''.$row->foto.'" class="img-fluid" width="400" height="200">';
+           echo '<a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Berita 1</a></h4>
-                <p>KUA Kecamatan Sukakarya, 2018 </p>
+                <h4><a href="'.base_url("Home/berita/").''.$row->kode_berita.'">'.$row->nomor.'</a></h4>
+                <p>'.$row->title.'</p>
               </div>
             </div>
-          </div>
+          </div>';
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="<?= base_url("assets/"); ?>img/portfolio/web3.jpg" class="img-fluid" alt="">
-                <a href="<?= base_url("assets/"); ?>img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Berita 2</a></h4>
-                <p>KUA Kecamatan Sukakarya, 2020</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Berita 3</a></h4>
-                <p>KUA Kecamatan Sukakarya, 2018</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Berita 4</a></h4>
-                <p>KUA Kecamatan Sukakarya, 2019</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Berita 5</a></h4>
-                <p>KUA Kecamatan Sukakarya, 2020</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Berita 6</a></h4>
-                <p>KUA Kecamatan Sukakarya, 2018</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Berita 7</a></h4>
-                <p>KUA Kecamatan Sukakarya, 2019</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Berita 8</a></h4>
-                <p>KUA Kecamatan Sukakarya, 2019</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Berita 9 </a></h4>
-                <p>KUA Kecamatan Sukakarya, 2020</p>
-              </div>
-            </div>
-          </div>
+            $i++;
+          }
+          ?>
+          <
 
         </div>
 
@@ -577,19 +435,16 @@
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">KUAsukakarya@example.com</a></p>
+              <p><a href="https://mail.google.com/mail/u/0/#inbox">KUAsukakarya@gmail.com</a></p>
             </div>
           </div>
         </div>
 
-      <div class="col-md-4">
-          <div class="social-links">
+          <div class="social-links text-center">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="https://m.facebook.com/KUA-SUKAKARYA-BEKASI-106900529341417/?ref=page_internal&mt_nav=0&locale2=id_ID" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.instagram.com" class="instagram"><i class="fa fa-instagram"></i></a>
           </div>
-      </div>
-
     </div>
     </section><!-- #contact -->
 

@@ -21,7 +21,7 @@ class Test extends CI_Model {
         return $data;
     }
 
-     public function tambahdataKepala($data){
+    public function tambahdataKepala($data){
         $query = $this->db->query("INSERT INTO detail_periode(kode_kepala,nomor,foto,nip,ttl,kewarganegaraan,agama,email,alamat,jabatan,prestasi,riwayat_pendidikan) VALUES ('".$data['kode_kepala']."','".$data['nomor']."','".$data['foto']."','".$data['nip']."','".$data['ttl']."','".$data['kewarganegaraan']."','".$data['agama']."','".$data['email']."','".$data['alamat']."','".$data['jabatan']."','".$data['prestasi']."','".$data['riwayat_pendidikan']."')");
 
         $this->db->set($query);

@@ -42,7 +42,7 @@
              <img src="<?= base_url("assets/"); ?>img/gedungKUA.jpg" class="center">
              </div>
              <br>
-             <h6>Kantor Urusan Agama (KUA) kecamatan merupakan unit kerja Kementerian Agama yang secara institusional berada paling depan dan menjadi ujung tombak dalam pelaksanaan tugas-lugas pelayanan kepada masyarakat di bidang keagamaan.<br><br>
+             <h6 class="text-justify">Kantor Urusan Agama (KUA) kecamatan merupakan unit kerja Kementerian Agama yang secara institusional berada paling depan dan menjadi ujung tombak dalam pelaksanaan tugas-lugas pelayanan kepada masyarakat di bidang keagamaan.<br><br>
              Secara histories, KUA adalah unit kerja Kementerian Agama yang memiliki rentang usia cukup Panjang. Menurut seorang ahili di bidang ke-Islaman Karel Steenbrink, bathwa KUA Kecamatan secara kelembagaan telah ada sebelum Depertemen Agama itu sendiri adaPada masa kolonial, unit kerja dengan tugas dan fungsi yang sejenis dengan KUA kecamatan, telah diatur dan diurus di bawah lembaga Kantor Voor Inslanche Zaken (Kantor Urusan Pribumi) yang didirikan oleh pemerintah Hindia Belanda. Pendirian unit kerja ini tak lain adalah untuk mengkoordinir tuntutan pelayanan masalah-masalah keperdataan yang menyangkut umat islam yang merupakan produk pribumi. Kelembagaan ini kemudian dilanjutkan oleh pemerintah Jepang melalui lembaga sejenis dengan sebutan Shumbu,<br><br>
 
              Pada masa kemerdekaan, KUA Kecamatan dikukuhkan melalui undang-undang No. 22 tahun 1946 tentang Pencatatan Nikah, Talak. Ceral dan Rujuk (NTCR). Undang-undang ini diakui sebagai pijakan legal bagi berdirinya KUA kecamalan. Pada mulanya, kewenangan KUA sangat luas, meliputi bukan hanya masalah NR saja, melainkan juga masalah talak dan cerai. Dengan berlakunya UU No. 1 tahun 1974 tentang perkawinan yang diberlakukan dengan PP No. 9 tahun 1975, maka kewenangan KUA kecamatan dikurangi oleh masalah talak cerai yang diserahkan ke Pengadilan Agama<br><br>
@@ -64,16 +64,13 @@
     <section id= 'about' style="background: #000000;padding: 60px 0;">
       <div class="container">
         <div class="page-inner">
-        <h3 class="text-left font-weight-bold">Dasar Hukum</h3>
-          <h6>Kantor Urusan Agama (KUA) kecamatan merupakan unit kerja Kementerian Agama yang secara institusional berada paling depan dan menjadi ujung tombak dalam pelaksanaan tugas-lugas pelayanan kepada masyarakat di bidang keagamaan.<br><br>
+        <h3 class="text-center font-weight-bold">Dasar Hukum</h3>
+          <h6 class="text-justify">Kantor Urusan Agama (KUA) kecamatan merupakan unit kerja Kementerian Agama yang secara institusional berada paling depan dan menjadi ujung tombak dalam pelaksanaan tugas-lugas pelayanan kepada masyarakat di bidang keagamaan.<br><br>
           Secara histories, KUA adalah unit kerja Kementerian Agama yang memiliki rentang usia cukup Panjang. Menurut seorang ahili di bidang ke-Islaman Karel Steenbrink, bathwa KUA Kecamatan secara kelembagaan telah ada sebelum Depertemen Agama itu sendiri adaPada masa kolonial, unit kerja dengan tugas dan fungsi yang sejenis dengan KUA kecamatan, telah diatur dan diurus di bawah lembaga Kantor Voor Inslanche Zaken (Kantor Urusan Pribumi) yang didirikan oleh pemerintah Hindia Belanda. Pendirian unit kerja ini tak lain adalah untuk mengkoordinir tuntutan pelayanan masalah-masalah keperdataan yang menyangkut umat islam yang merupakan produk pribumi. Kelembagaan ini kemudian dilanjutkan oleh pemerintah Jepang melalui lembaga sejenis dengan sebutan Shumbu,<br><br></h6>
         </div>
       </div>
     </section>
 
-    <div class="button">
-        <button type="button" onclick="javascript:history.back()"><span ></span>Kembali</button>
-    </div>
 
     <!-- JavaScript Libraries -->
   <script src="<?= base_url("assets/"); ?>lib/jquery/jquery.min.js"></script>
