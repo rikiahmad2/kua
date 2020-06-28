@@ -73,7 +73,7 @@
                     <input type="text" name="title" class="form-control" id="title" placeholder="Judul berita" value="<?=$data['title'] ?>">
                   </div>
                  <div class="form-group">
-                    <label for="comment">Comment:</label>
+                    <label for="comment">Isi Berita :</label>
                     <textarea class="form-control" rows="5" id="comment" name="isi"> <?=$data['isi']?> </textarea>
                   </div>
                 <div class="card-footer">
