@@ -37,30 +37,45 @@
           <li><a href="<?= base_url("Home/"); ?>">Home</a></li>
           <li class="menu-has-children"><a href="#">Profil</a>
             <ul>
-              <li><a href="<?= base_url("Profil/kepalaKUA"); ?>">Profil Kepala KUA</a></li>
-              <li><a href="<?= base_url("Profil/letakgeo"); ?>">Letak Geografis</a></li>
-              <li><a href="<?= base_url("Profil/visimisi"); ?>">Visi & Misi </a></li>
-              <li><a href="<?= base_url("Profil/struktur"); ?>">Struktur Organisasi</a></li>
+              <li><a href="">Sejarah</a>
+                <ul>
+                 <li><a href="<?= base_url("Profil/sejarah/"); ?>">Latar Belakang</a></li>
+                 <li><a href="<?= base_url("Profil/dasarhukum"); ?>">Dasar Hukum</a></li>
+                </ul>
+              </li>
+              <li><a href="<?= base_url("Profil/kepalaKUA/"); ?>">Profil Kepala KUA</a></li>
+              <li><a href="<?= base_url("Profil/letakgeo/"); ?>">Letak Geografis</a></li>
+              <li><a href="<?= base_url("Profil/visimisi/"); ?>">Visi & Misi </a></li>
+              <li><a href="<?= base_url("Profil/struktur/"); ?>">Struktur Organisasi</a></li>
+              <li><a href="<?= base_url("Profil/tugaskua/"); ?>">Tugas & Tujuan KUA</a></li>
             </ul>
           </li>
           <li class="menu-has-children"><a href="#">Data</a>
             <ul>
               <li><a href="<?= base_url("Data/penyuluh"); ?>">Data Penyuluh Agama</a></li>
               <li><a href="<?= base_url("Data/masjid"); ?>">Data Tempat Ibadah</a></li>
+              <li><a href="">Data Tanah Wakaf </a>
+                <ul>
+                 <li><a href="<?= base_url("Data/pelayanan"); ?>">Pelayanan Wakaf</a></li>
+                 <li><a href="<?= base_url("Data/jumlahwakaf"); ?>">Jumlah Tanah Wakaf</a></li>
+                </ul>
+             </li>
             </ul> 
           </li>
 
-          <li class="menu-has-children"><a href="#">Program Kerja</a>
+          <li class="menu-has-children"><a href="#" id="#programkerja">Program Kerja</a>
             <ul>
-                <li><a href="<?= base_url("Program_kerja/hisab_ruyah");?>">Kemasjidan Dan Hisab Ru'yah</a></li>
-                <li><a href="<?= base_url("Program_kerja/keluarga_sakinah");?>">Keluarga Sakinah</a>
-                <li><a href="<?= base_url("Program_kerja/ibadah_haji"); ?>">Ibadah Haji</a></li>
-                </li>
+                <li><a href="<?= base_url("Program_kerja/hisab_ruyah");?>">Bimbingan Kemasjidan</a></li>
+                <li><a href="<?= base_url("Program_kerja/keluarga_sakinah");?>">Keluarga Sakinah</a></li>
+                <li><a href="<?= base_url("Program_kerja/ibadah_haji"); ?>">Pelayanan Ibadah Haji</a></li>
+                <li><a href="<?= base_url("Program_kerja/nikah");?>">Pelayanan Nikah</a></li>
+                <li><a href="<?= base_url("Program_kerja/wakaf"); ?>">Pelayanan Wakaf</a></li>
             </ul>
           </li>
-          <li><a href="<?= base_url("Home/#skills"); ?>">Statistik</a></li>
-          <li><a href="<?= base_url("Home/#portfolio"); ?>">Berita</a><li>
-          <li><a href="<?= base_url("Home/#contact"); ?>">Contact</a></li>
+          <li><a href="<?= base_url("Home/index/#skills"); ?>">Statistik</a></li>
+          <li><a href="<?= base_url("Home/index/#portfolio"); ?>">Berita</a><li>
+          <li><a href="<?= base_url("Home/index/"); ?>#contact">Contact</a></li>
+          <li><a href="<?= base_url("Login/"); ?>">Login</a></li>
 
         </ul>
       </nav><!-- #nav-menu-container -->

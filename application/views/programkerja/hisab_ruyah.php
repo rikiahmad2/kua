@@ -45,11 +45,30 @@
         <ul>6. Membuat Jadwal waktu solat</ul>
 
 
+        <section id="about">
+          <div class="container" >
+            <div class="row" >
+              <div id="page-inner" > 
+               <center><h5><b>Bimbingan Kemasjidan oleh Kecamatan Sukakarya</b></h5></center>
+               <p>Kami melayani biimbingan kemasjidan baik dari mengatur persyaratan dokumen sebelum membangun rumah ibadah dan tata cara mengurus rumah ibadah tersebut</p>
+               <center><h5 ><b>Persyaratan Membangun Masjid oleh KUA Kecamatan Sukakarya</b></h5></center> 
+               <p>Terdapat Peraturan Bersama Meteri Agama dan Menteri Dalam Negeri No. 8/9 Tahun 218 pasal 13</p>
+               <ol>
+                <li>Daftar nama dan KTP pengguna rumah Ibadah minimal 90 0rang, dan disajikan oleh pejabat setempat</li>
+                <li>Daftar dukungan masyarakat setempat minimal 60 orang dan disahkan oleh kepala desa</li>
+                <li>Rekomendasi dari FKUB kabupaten</li>
+                <li>Rekomendasi dari Kantor Kementrian Agama Kabupaten</li>
+                <li>Memenuhi persyaratan teknis bangunan</li>
+              </ol>
+            </div>
+          </div> 
+        </div>
+
       </h6>
-      </div> 
-      <div class="col-md-2"></div>
-    </div>
+    </div> 
+    <div class="col-md-2"></div>
   </div>
+</div>
 </section>
 
 </body>   

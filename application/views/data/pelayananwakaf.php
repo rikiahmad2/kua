@@ -30,86 +30,6 @@
 
     </head>
 
-    <body  style="background-color:powderblue;">
-
-          <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li><a href="index.html">Home</a></li>
-          <li class="menu-has-children"><a href="#">Profil</a>
-            <ul>
-              <li><a href="KepalaKUA.html">Profil Kepala KUA</a></li>
-              <li><a href="Geografis.html">Letak Geografis</a></li>
-              <li><a href="visimisi.html">Visi & Misi </a></li>
-              <li><a href="TugasKUA.html">Tugas dan Fungsi KUA </a></li>
-              <li><a href="struktur_organisasi.html">Struktur Organisasi</a></li>
-            </ul>
-          </li>
-          <li class="menu-has-children"><a href="#">Data</a>
-            <ul>
-              <li><a href="penyuluhagama.html">Data Penyuluh Agama</a></li>
-              <li><a href="masjid.html">Data Masjid</a></li>
-             <li><a href="">Data Tanah Wakaf </a>
-                <ul>
-                 <li><a href="pelayananwakaf.html">Pelayanan Wakaf</a></li>
-                 <li><a href="jumlahwakaf.html">Jumlah Tanah Wakaf</a></li>
-                </ul>
-             </li>
-             <li><a href="">Data Pernikahan</a>
-               <ul>
-                 <li><a href="jadwalnikah.html">Jadwal Pernikahan</a></li>
-                 <li><a href="datanikah.html">Data Pernikahan</a></li>
-              </ul>
-             </li>
-             <li ><a href="">Sidang Peradilan Agama</a>
-                <ul>
-                  <li><a href="jadwalsidang.html">Jadwal Sidang Peradilan Agama</a></li>
-                  <li><a href="#">Formulir Permintaan Akta Cerai</a></li>
-                  <li><a href="#">Cek Info Perkara</a></li>
-                 </ul>
-             </li>
-            </ul> 
-          </li>
-
-          <li class="menu-has-children"><a href="#">Program Kerja</a>
-            <ul>
-                <li><a href="nikah.html">Pelayanan Nikah</a></li>
-                <li><a href="pelayananwakaf.html">Pelayanan Wakaf</a></li>
-                <li><a href="bimbinganmasjid.html">Bimbingan Kemasjidan</a></li>
-                   <ul>
-                      <li><a href="#">Pengukuran Arah Kiblat</a></li>
-                      <li><a href="#">Persyaratan pembangunan masjid</a></li>
-                  </ul>
-                <li><a href="haji.html">Pelayanan Ibadah Haji</a></li>
-                <li><a href="#">Keluarga Sakinah</a>
-                  <ul>
-                      <li><a href="keluarga.html">Bimbingan Calon Pengantin</a></li>
-                      <li><a href="keluarga.html">Pelayanan Bimbingan Keluarga Sakinah</a></li>
-                  </ul>
-                </li>
-                </li>
-                <li><a href="#">Galery Kegiatan</a>
-                  <ul>
-                      <li><a href="publikasi.html">Kegiatan 1</a></li>
-                      <li><a href="publikasi.html">Kegiatan 2</a></li>
-                  </ul>
-                </li>
-            </ul>
-          </li>
-          <li><a href="index.html#skills">Statistik</a></li>
-          <li><a href="index.html#portfolio">Berita</a><li>
-          <li><a href="index.html#contact">Contact</a></li>
-
-        </ul>
-      </nav><!-- #nav-menu-container -->
-
-        <section id="call-to-action" class="wow fadeIn">
-      <div class="container text-center">
-              <header class="section-header">
-                <h3>Pelayanan Wakaf oleh KUA Kecamatan Sukakarya</h3>
-              </header>
-            </div>
-        </section>
-
      <section id="about">
       <div class="container">
         <div class="row">
@@ -140,12 +60,20 @@
                   <li>Foto copy Akta yayasan jika Nadzirnya Badab Hukum</li>
                   <li>Materai 6000 sebanyak 10 buah</li>
                 </ol>
+
+                 <center><h5><b>Bidang Zakat, Wakaf, Infaq, Sodaqoh Dan Ibadah Sosial</b></h5></center>
+                <ol>
+                  <li>Sosialisasi zakat, wakaf, infaq dan sodaqoh</li>
+                  <li>Mengumpulkan dan menyalurkan dana ZIS</li>
+                  <li>Mengadakan pembinaan masyarakat tentang sadar zakat</li>
+                  <li>Membuat akta ikrar wakaf</li>
+                  <li>Mendata tanah wakaf</li>
+                  <li>Mendata tempat ibadah dan pendidikan</li>
+                  <li>Pengajian bulanan se-Kecamatan Sukakarya</li>
+                </ol>
+                <br>
         </div>
         </div>
        </div>
-    </section>
-    <div class="button">
-        <button type="button" onclick="javascript:history.back()"><span ></span>Kembali</button>
-     </div>
 </body>   
 </html>

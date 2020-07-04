@@ -39,9 +39,10 @@
         <ul>1. Menyusun kepengurusan BP.4 Tingkat Kecamatan Sukakarya</ul>
         <ul>2. Menyelenggarakan bimbingan calon pengantin <b>(Bimwin mandiri)</b> satu minggu dua kali pada setiap hari Selasa dan Kamis</ul>
         <ul>3. Mengadakan penasihatan 10 menit pada saat perrikahan jika situasi dari kondisi memungkinkan</ul>
-        <ul>4. Mendata keluarga sakinah sewilayah Kecamatan Sukakarya</ul>
-        <ul>5. Sosiallsasi program Keluarga Sakinah dalam pengejian-pengajian</ul>
-        <ul>6. Mengadakan pembinaan Keluarga Sakinah Teladan untuk mengikuti pemilihan Tingkat Nasional </ul>
+        <ul>4. Memberikan penasihatan kepada keluarga yang sedang mengalami krisis rumah tangga</ul>
+        <ul>5. Mendata keluarga sakinah sewilayah Kecamatan Sukakarya</ul>
+        <ul>6. Sosiallsasi program Keluarga Sakinah dalam pengejian-pengajian</ul>
+        <ul>7 . Mengadakan pembinaan Keluarga Sakinah Teladan untuk mengikuti pemilihan Tingkat Nasional </ul>
 
       </h6>
       </div> 

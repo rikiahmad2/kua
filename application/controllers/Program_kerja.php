@@ -39,9 +39,25 @@ class Program_kerja extends CI_Controller {
 
     public function hisab_ruyah(){
         $data['title'] = 'Program Kerja';
-        $data['header'] = "Bidang Kemasjidan Dan Hisab Ru'yah";
+        $data['header'] = "Bimbingan Kemasjidan Oleh KUA kecamatan Sukakarya";
 
         $this->load->view('headnav/nav',$data);
         $this->load->view('programkerja/hisab_ruyah');
+    }
+
+    public function nikah(){
+        $data['title'] = 'Program Kerja';
+        $data['header'] = "Pelayanan Nikah di KUA Kecamatan Sukakarya";
+
+        $this->load->view('headnav/nav',$data);
+        $this->load->view('programkerja/nikah');
+    }
+
+    public function wakaf(){
+        $data['title'] = 'Program Kerja';
+        $data['header'] = "Pelayanan Wakaf Oleh KUA Kecamatan Sukakarya";
+
+        $this->load->view('headnav/nav',$data);
+        $this->load->view('data/pelayananwakaf');
     }
 }

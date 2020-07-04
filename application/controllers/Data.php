@@ -28,4 +28,20 @@ class Data extends CI_Controller {
         $this->load->view('headnav/nav',$data);
         $this->load->view('data/masjid', $result);
     }
+
+    public function pelayanan(){
+        $data['title'] = 'Data Wakaf';
+        $data['header'] = 'Data Pelayanan Wakaf';
+
+        $this->load->view('headnav/nav',$data);
+        $this->load->view('data/pelayananwakaf');
+    }
+
+    public function jumlahwakaf(){
+        $data['title'] = 'Data Wakaf';
+        $data['header'] = 'Data Jumlah Wakaf';
+
+        $this->load->view('headnav/nav',$data);
+        $this->load->view('data/jumlahwakaf');
+    }
 }

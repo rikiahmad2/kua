@@ -36,7 +36,7 @@ class Penyuluh_m extends CI_Model {
     }
 
     public function submiteditPenyuluh($data){
-        $query = $this->db->query( "UPDATE penyuluh SET nama = '".$data['nama']."', jk = '".$data['jk']."', tmpt_lahir = '".$data['tmpt_lahir']."', tgl_lahir = '".$data['tgl_lahir']."', pendidikan = '".$data['pendidikan']."', tugas = '".$data['tugas']."' WHERE id_penyuluh = '".$data['id_penyuluh']."'");
+        $query = $this->db->query( "UPDATE penyuluh SET nama = '".$data["nama"]."', jk = '".$data['jk']."', tmpt_lahir = '".$data['tmpt_lahir']."', tgl_lahir = '".$data['tgl_lahir']."', pendidikan = '".$data['pendidikan']."', tugas = '".$data["tugas"]."' WHERE id_penyuluh = '".$data['id_penyuluh']."'");
 
         $this->db->set($query);
     }

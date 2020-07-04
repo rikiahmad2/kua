@@ -15,7 +15,7 @@ class Profil extends CI_Controller {
     
     public function sejarah() {
         $data['title'] = 'Sejarah';
-        $data['header'] = 'SEJARAH';
+        $data['header'] = 'Latar Belakang';
         $this->load->view('headnav/nav',$data);
         $this->load->view('profil/sejarah');
     }
@@ -52,5 +52,19 @@ class Profil extends CI_Controller {
 
         $this->load->view('headnav/nav',$data);
         $this->load->view('profil/struktur_view', $result);
+    }
+
+    public function dasarhukum() {
+        $data['title'] = 'Daasar Hukum';
+        $data['header'] = 'Dasar Hukum';
+        $this->load->view('headnav/nav',$data);
+        $this->load->view('profil/dasarhukum');
+    }
+
+    public function tugaskua(){
+        $data['title'] = 'Tugas KUA';
+        $data['header'] = 'Tugas & TUJUAN KUA KECAMATAN SUKAKARYA';
+        $this->load->view('headnav/nav',$data);
+        $this->load->view('profil/tugaskua');
     }
 }
