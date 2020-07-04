@@ -5,7 +5,7 @@ Author URL: http://w3layouts.com
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Video Gaming News a Games Category Flat Bootstrap Responsive Website Template | About :: w3layouts</title>
+<title>Berita</title>
 
 <link href="<?= base_url("assets/berita/"); ?>css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="<?= base_url("assets/berita/"); ?>css/style.css" rel='stylesheet' type='text/css' />
@@ -34,8 +34,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 <div class="headr-right">
 				<div class="details">
 					<ul>
-						<li><a href="mailto:@example.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>KUAsukakarya@gmail.com</a></li>
-						<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>(022) 6015723</li>
+						<li><a style="color: white" href="https://mail.google.com/mail/u/0/#inbox"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>KUAsukakarya@gmail.com</a></li>
+						<li><span style="color: white" class="glyphicon glyphicon-earphone" aria-hidden="true"></span><a style="color: white" href="tel:+62226015723">(022) 6015723</a></li>
 					</ul>
 			  </div>
 		 </div>

@@ -443,7 +443,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Telepon</h3>
-              <p><a href="tel:+155895548855">(022) 6015723</a></p>
+              <p><a href="tel:+62226015723">(022) 6015723</a></p>
             </div>
           </div>
 
